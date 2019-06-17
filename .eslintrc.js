@@ -7,7 +7,7 @@ module.exports = {
 		/**
 		 * Make sure you run npm install -g /path/to/WebDevStudios/eslint-rules
 		 */
-		'webdevstudios'
+		'eslint-plugin-webdevstudios'
 	],
 	'env': {
 		'browser': true,
