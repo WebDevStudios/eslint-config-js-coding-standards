@@ -1,5 +1,5 @@
 {
-  "name": "eslint",
+  "name": "webdevstudios-eslint",
   "version": "1.0.0",
   "description": "WDS Coding Standards for JavaScript",
   "main": "index.js",
