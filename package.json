@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "WebDevStudios",
-  "license": "GPLv2+",
+  "license": "GPL-2.0-or-later",
   "bugs": {
     "url": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios/issues"
   },
@@ -20,5 +20,6 @@
   "dependencies": {
     "eslint": "^5.16.0",
     "eslint-config-wordpress": "^2.0.0"
-  }
+  },
+  "devDependencies": {}
 }
