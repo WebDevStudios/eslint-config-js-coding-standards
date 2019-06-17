@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios/issues"
   },
-  "homepage": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios#readme"
+  "homepage": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios#readme",
+  "dependencies": {
+    "eslint-config-wordpress": "^2.0.0"
+  }
 }
