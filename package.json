@@ -1,5 +1,5 @@
 {
-  "name": "webdevstudios-eslint",
+  "name": "eslint-plugin-webdevstudios",
   "version": "1.0.0",
   "description": "WDS Coding Standards for JavaScript",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebDevStudios/eslint.git"
+    "url": "git+https://github.com/WebDevStudios/eslint-plugin-webdevstudios.git"
   },
   "keywords": [],
   "author": "WebDevStudios",
   "license": "GPLv2+",
   "bugs": {
-    "url": "https://github.com/WebDevStudios/eslint/issues"
+    "url": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios/issues"
   },
-  "homepage": "https://github.com/WebDevStudios/eslint#readme"
+  "homepage": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios#readme"
 }
