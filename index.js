@@ -153,7 +153,7 @@ var wdscsUtils = ( function( wdscsUtils ) {
 	 * @see  https://docs.google.com/document/d/16-wN2i9Fe2fpq24PMMQqu80vBvCVNvm2kpgwtcfsJXE/edit Documentation of this requirement.
 	 */
 	wdscsUtils.isThemeFile = function( that ) {
-		if ( ! that.hasOwnProperty( 'getFileName' ) ) {
+		if ( ! that.hasOwnProperty( 'getFilename' ) ) {
 			return false;
 		}
 
