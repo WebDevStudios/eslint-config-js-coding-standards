@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios#readme",
   "dependencies": {
+    "eslint": "^5.16.0",
     "eslint-config-wordpress": "^2.0.0"
   }
 }
