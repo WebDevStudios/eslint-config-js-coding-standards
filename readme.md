@@ -1,18 +1,18 @@
-# WebDevStudios Coding Standards (eslint)
+# WebDevStudios Coding Standards
 
-WDS Coding Standards for JavaScript
+WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.
 
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
 
-## Installation
+## Leadership
 
-The preferred method of installation is via installing [WDS Coding Standards](https://github.com/WebDevStudios/wds-coding-standards), which will automatically install this package for you, otherwise use `npm install webdevstudios-eslint`.
+- __Aubrey Portwood (Senior BED Developer)__
+    + Writes & Integrates Coding Standards/Maintains Standards
+- __Greg Rickaby (Director of Engineering)__
+    + High level Approval / Leadership
 
-____________
+## How to Install
 
-# Changelog 
+????????????????
 
-## 1.0.0
-
-- Cut out of [WDS Coding Standards](https://github.com/WebDevStudios/wds-coding-standards) into own package
 
