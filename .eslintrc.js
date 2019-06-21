@@ -3,7 +3,7 @@
 /* globals module */
 module.exports = {
 	'plugins': [
-		'wds-js-coding-standards'
+		'wds-js-coding-standards-eslint-custom'
 	],
 
 	'env': {
@@ -64,7 +64,7 @@ module.exports = {
 		 *
 		 * @report    Warning
 		 */
-		'webdevstudios/@author': 1,
+		'wds-js-coding-standards-eslint-custom/@author': 1,
 
 		/**
 		 * Require @since.
@@ -77,7 +77,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'webdevstudios/@since': 2,
+		'wds-js-coding-standards-eslint-custom/@since': 2,
 
 		/**
 		 * Function assignments require DocBlocks to help understand data coming in.
@@ -91,7 +91,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'webdevstudios/functionExpressionRequireDocblock': 2,
+		'wds-js-coding-standards-eslint-custom/functionExpressionRequireDocblock': 2,
 
 		/**
 		 * Enforce spacing inside array brackets.

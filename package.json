@@ -2,7 +2,6 @@
   "name": "wds-js-coding-standards",
   "version": "1.0.0",
   "description": "WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +18,8 @@
   "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
   "dependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-wordpress": "^2.0.0"
+    "eslint-config-wordpress": "^2.0.0",
+    "eslint-plugin-wds-js-coding-standards-eslint-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
   },
   "devDependencies": {}
 }
