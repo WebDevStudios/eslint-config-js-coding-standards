@@ -1,22 +1,22 @@
 {
-  "name": "eslint-plugin-webdevstudios",
+  "name": "wds-js-coding-standards",
   "version": "1.0.0",
-  "description": "WDS Coding Standards for JavaScript",
+  "description": "WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebDevStudios/eslint-plugin-webdevstudios.git"
+    "url": "git+https://github.com/WebDevStudios/js-coding-standards.git"
   },
   "keywords": [],
   "author": "WebDevStudios",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios/issues"
+    "url": "https://github.com/WebDevStudios/js-coding-standards/issues"
   },
-  "homepage": "https://github.com/WebDevStudios/eslint-plugin-webdevstudios#readme",
+  "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
   "dependencies": {
     "eslint": "^5.16.0",
     "eslint-config-wordpress": "^2.0.0"
