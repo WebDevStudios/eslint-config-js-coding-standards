@@ -28,15 +28,18 @@ module.exports = {
 	},
 
 	/**
-	 * Make sure you have eslint-config-wordpress installed.
+	 * Extend WordPress
 	 *
-	 * Install using:
+	 * Install via:
 	 *
-	 *     npm install -g eslint-config-wordpress
+	 *    npm install -g @wordpress/eslint-plugin
+	 *    npm install -g eslint-plugin-react-hooks
+	 *    npm install -g eslint-plugin-react
+	 *    npm install -g eslint-plugin-jsx-a11y
 	 *
-	 * @@since 1.1
+	 * @since 1.1
 	 */
-	'extends': [ 'wordpress' ],
+	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
 	/**
 	 * WDS & WordPress Coding Standards for JavaScript.
