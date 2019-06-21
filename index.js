@@ -1,10 +1,6 @@
 /**
  * Custom WDS ESLint Rules.
  *
- * In order for this to work you need to:
- *
- *     npm install -g /path/to/eslint-plugin-webdevstudios
- *
  * @since 1.2.0
  */
 
