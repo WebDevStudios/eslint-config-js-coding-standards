@@ -3,12 +3,9 @@
 /* globals module */
 module.exports = {
 	'plugins': [
-
-		/**
-		 * Make sure you run npm install -g /path/to/WebDevStudios/eslint-rules
-		 */
-		'webdevstudios'
+		'wds-js-coding-standards'
 	],
+
 	'env': {
 		'browser': true,
 		'jquery': true,
