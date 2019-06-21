@@ -21,5 +21,6 @@
     "eslint": "^5.16.0",
     "eslint-config-wordpress": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js"
 }
