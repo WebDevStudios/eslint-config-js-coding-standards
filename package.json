@@ -23,5 +23,7 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-wds-js-coding-standards-eslint-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
+  },
+  "devDependencies": {
   }
 }
