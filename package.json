@@ -16,7 +16,7 @@
     "url": "https://github.com/WebDevStudios/js-coding-standards/issues"
   },
   "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
-  "devDependencies": {
+  "dependencies": {
     "@wordpress/eslint-plugin": "^2.3.0",
     "eslint": "^5.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
