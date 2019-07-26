@@ -6,7 +6,7 @@ module.exports = {
 	/**
 	 * Extend WordPress
 	 *
-	 * @since 1.1
+	 * @since 1.0.0
 	 */
 	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
@@ -25,7 +25,7 @@ module.exports = {
 	 *
 	 * These will get ignored automatically.
 	 *
-	 * @since  1.1
+	 * @since  1.0.0
 	 */
 	'globals': {
 		'_': false,
@@ -44,7 +44,7 @@ module.exports = {
 	 * The @standard tag tells you which one's are straight from
 	 * WordPress Core, and which one's are WDS's own.
 	 *
-	 * @since  1.1
+	 * @since  1.0.0
 	 * @see    https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/
 	 */
 	'rules': {
@@ -162,7 +162,7 @@ module.exports = {
 		 * @standard WDS
 		 * @see      https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/#declaring-variables-with-var
 		 *
-		 * @since    1.1
+		 * @since    1.0.0
 		 * @author   Aubrey Portwood
 		 *
 		 * @since    7/26/2019 Overrides WP.
@@ -189,7 +189,7 @@ module.exports = {
 		 *
 		 * @standard WDS
 		 *
-		 * @since  1.1
+		 * @since  1.0.0
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Error
@@ -204,7 +204,7 @@ module.exports = {
 		 * e.g. undefined === typeof var will fail,
 		 * while 'undefined' === typeof var will pass.
 		 *
-		 * @since  1.1
+		 * @since  1.0.0
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Warning
@@ -216,7 +216,7 @@ module.exports = {
 		 *
 		 * @standard WDS
 		 *
-		 * @since  1.1
+		 * @since  1.0.0
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Error
@@ -228,7 +228,7 @@ module.exports = {
 		 *
 		 * @standard WDS
 		 *
-		 * @since  1.1
+		 * @since  1.0.0
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Error
@@ -246,7 +246,7 @@ module.exports = {
 		 *     var b = parseInt( a, 10 ); // Radix used here
 		 *
 		 * @author Aubrey Portwood
-		 * @since  1.1
+		 * @since  1.0.0
 		 *
 		 * @report   Error
 		 */
