@@ -1,5 +1,5 @@
 {
-  "name": "@webdevstudios/js-coding-standards",
+  "name": "@webdevstudios/eslint-config-js-coding-standards",
   "version": "1.0.0",
   "description": "WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.",
   "scripts": {
@@ -24,5 +24,6 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-wds-js-coding-standards-eslint-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js"
 }
