@@ -2,6 +2,14 @@
 
 /* globals module */
 module.exports = {
+
+	/**
+	 * Extend WordPress
+	 *
+	 * @since 1.1
+	 */
+	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+
 	'plugins': [
 		'wds-js-coding-standards-eslint-custom'
 	],
@@ -26,20 +34,6 @@ module.exports = {
 		'JSON': false,
 		'wp': false
 	},
-
-	/**
-	 * Extend WordPress
-	 *
-	 * Install via:
-	 *
-	 *    npm install -g @wordpress/eslint-plugin
-	 *    npm install -g eslint-plugin-react-hooks
-	 *    npm install -g eslint-plugin-react
-	 *    npm install -g eslint-plugin-jsx-a11y
-	 *
-	 * @since 1.1
-	 */
-	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
 	/**
 	 * WDS & WordPress Coding Standards for JavaScript.
