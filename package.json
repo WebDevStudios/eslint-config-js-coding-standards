@@ -18,7 +18,6 @@
   "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
   "dependencies": {
     "@wordpress/eslint-plugin": "^2.3.0",
-    "eslint": "^5.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
