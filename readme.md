@@ -14,3 +14,13 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 ## Installation
 
 `npm install git://git@github.com:WebDevStudios/js-coding-standards.git --save-dev`
+
+### Projects
+
+To use our coding standards in your project, in your `.eslintrc.js` file include:
+
+```js
+module.exports = {
+    "extends": "@webdevstudios/eslint-config-js-coding-standards"
+}
+```
