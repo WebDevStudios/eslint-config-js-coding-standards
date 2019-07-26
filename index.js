@@ -250,6 +250,18 @@ module.exports = {
 		 *
 		 * @report   Error
 		 */
-		'radix': 'error'
+		'radix': 'error',
+
+		/**
+		 * Allow padded block comments.
+		 *
+		 * @standard WDS
+		 *
+		 * @author  Aubrey Portwood <aubrey@webdevstudios.com>
+		 * @since  1.0.0 7/26/2019
+		 *
+		 * @report Off
+		 */
+		'padded-blocks': 'off'
 	}
 };
