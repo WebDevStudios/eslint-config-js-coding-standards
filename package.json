@@ -18,9 +18,10 @@
   "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
   "dependencies": {
     "@wordpress/eslint-plugin": "^2.3.0",
-    "eslint": "^6.1.0",
+    "eslint": "^6.1.0"
+  },
+  "devDependencies": {
     "@webdevstudios/eslint-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
   },
-  "devDependencies": {},
   "main": "index.js"
 }
