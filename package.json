@@ -21,7 +21,7 @@
     "eslint": "^6.1.0"
   },
   "devDependencies": {
-    "@webdevstudios/eslint-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
+    "@webdevstudios/eslint-plugin-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-custom.git"
   },
   "main": "index.js"
 }

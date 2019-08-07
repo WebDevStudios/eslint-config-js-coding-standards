@@ -11,7 +11,7 @@ module.exports = {
 	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
 	'plugins': [
-		'@webdevstudios/eslint-custom'
+		'@webdevstudios/eslint-plugin-custom'
 	],
 
 	'env': {
@@ -61,7 +61,7 @@ module.exports = {
 		 *
 		 * @report    Warning
 		 */
-		'@webdevstudios/eslint-custom/@author': 1,
+		'@webdevstudios/eslint-plugin-custom/@author': 1,
 
 		/**
 		 * Require @since.
@@ -74,7 +74,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'@webdevstudios/eslint-custom/@since': 2,
+		'@webdevstudios/eslint-plugin-custom/@since': 2,
 
 		/**
 		 * Function assignments require DocBlocks to help understand data coming in.
@@ -88,7 +88,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'@webdevstudios/eslint-custom/functionExpressionRequireDocblock': 2,
+		'@webdevstudios/eslint-plugin-custom/functionExpressionRequireDocblock': 2,
 
 		/**
 		 * Encourages use of dot notation whenever possible.
