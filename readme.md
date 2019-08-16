@@ -1,4 +1,4 @@
-# WebDevStudios Coding Standards
+# WebDevStudios JavaScript Coding Standards
 
 WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.
 
