@@ -13,11 +13,11 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 ## Installation
 
-`npm install git://git@github.com:WebDevStudios/js-coding-standards.git --save-dev`
+`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#0.1.0 --save-dev`
 
 Because of an issue with `npm` not respecting the version of `eslint` we need, you have to also:
 
-`npm install eslint@6.0.1 --save-dev`
+`npm install eslint@1.0.0-alpha1 --save-dev`
 
 ### Projects
 
@@ -29,6 +29,6 @@ module.exports = {
 }
 ```
 
-## 0.1
+## 1.0.0-alpha1
 
 - Working version that uses the eslint-custom plugin correctly
