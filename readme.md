@@ -25,7 +25,7 @@ To use our coding standards in your project, in your `.eslintrc.js` file include
 
 ```js
 module.exports = {
-    "extends": "@webdevstudios/eslint-config-js-coding-standards"
+    "extends": "@webdevstudios/js-coding-standards"
 }
 ```
 
