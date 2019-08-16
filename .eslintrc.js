@@ -1,3 +1,3 @@
 module.exports = {
-	"extends": "@webdevstudios/eslint-plugin"
+	"extends": "@webdevstudios/eslint-plugin-custom"
 }

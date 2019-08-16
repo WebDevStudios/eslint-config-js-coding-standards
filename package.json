@@ -19,7 +19,7 @@
   "dependencies": {
     "@wordpress/eslint-plugin": "^2.3.0",
     "eslint": "^6.1.0",
-    "@webdevstudios/eslint-plugin": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-plugin.git"
+    "@webdevstudios/eslint-plugin-custom": "git+ssh://git@github.com/WebDevStudios/js-coding-standards-eslint-plugin.git"
   },
   "devDependencies": {},
   "main": "index.js"
