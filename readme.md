@@ -15,10 +15,6 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 `npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-alpha1 --save-dev`
 
-Because of an issue with `npm` not respecting the version of `eslint` we need, you have to also:
-
-`npm install eslint@1.0.0-alpha1 --save-dev`
-
 ### Projects
 
 To use our coding standards in your project, in your `.eslintrc.js` file include:
