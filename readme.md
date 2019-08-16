@@ -13,7 +13,7 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 ## Installation
 
-`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#0.1.0 --save-dev`
+`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-alpha1 --save-dev`
 
 Because of an issue with `npm` not respecting the version of `eslint` we need, you have to also:
 
