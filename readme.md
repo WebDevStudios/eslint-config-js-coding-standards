@@ -28,3 +28,7 @@ module.exports = {
     "extends": "@webdevstudios/eslint-config-js-coding-standards"
 }
 ```
+
+## 0.1
+
+- Working version that uses the eslint-custom plugin correctly
