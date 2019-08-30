@@ -25,6 +25,10 @@ module.exports = {
 }
 ```
 
+## NEXT
+
+- Removed error for `@wordpress/dependency-group` rule
+
 ## 1.0.0-alpha1
 
 - Working version that uses the eslint-custom plugin correctly
