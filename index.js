@@ -1,6 +1,5 @@
 'use strict';
 
-/* globals module */
 module.exports = {
 
 	/**
@@ -8,16 +7,16 @@ module.exports = {
 	 *
 	 * @since 1.0.0
 	 */
-	'extends': [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
-	'plugins': [
-		'@webdevstudios/custom'
+	plugins: [
+		'@webdevstudios/custom',
 	],
 
-	'env': {
-		'browser': true,
-		'jquery': true,
-		'es6': true
+	env: {
+		browser: true,
+		jquery: true,
+		es6: true,
 	},
 
 	/**
@@ -27,12 +26,12 @@ module.exports = {
 	 *
 	 * @since  1.0.0
 	 */
-	'globals': {
-		'_': false,
-		'Backbone': false,
-		'jQuery': false,
-		'JSON': false,
-		'wp': false
+	globals: {
+		_: false,
+		Backbone: false,
+		jQuery: false,
+		JSON: false,
+		wp: false,
 	},
 
 	/**
@@ -47,7 +46,20 @@ module.exports = {
 	 * @since  1.0.0
 	 * @see    https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/
 	 */
-	'rules': {
+	rules: {
+
+		/**
+		 * Module dependency documentation.
+		 *
+		 * Turn the error into a warn.
+		 *
+		 * This error gets thrown on ALL JS files that use import.
+		 *
+		 * @see https://github.com/WordPress/gutenberg/issues/16789
+		 *
+		 * @since  1.0.0
+		 */
+		'@wordpress/dependency-group': 1,
 
 		/**
 		 * Require @author.
@@ -104,7 +116,7 @@ module.exports = {
 		 */
 		'dot-notation': [ 'error', {
 			allowKeywords: true,
-			allowPattern: '^[a-z]+(_[a-z]+)+$'
+			allowPattern: '^[a-z]+(_[a-z]+)+$',
 		} ],
 
 		/**
@@ -136,7 +148,7 @@ module.exports = {
 		 */
 		'key-spacing': [ 'error', {
 			beforeColon: false,
-			afterColon: true
+			afterColon: true,
 		} ],
 
 		/**
@@ -150,7 +162,7 @@ module.exports = {
 		 * @report   Error
 		 */
 		'lines-around-comment': [ 'error', {
-			beforeLineComment: true
+			beforeLineComment: true,
 		} ],
 
 		/**
@@ -182,7 +194,7 @@ module.exports = {
 		 *
 		 * @report   Error
 		 */
-		'yoda': [ 'error', 'always' ],
+		yoda: [ 'error', 'always' ],
 
 		/**
 		 * Require docblocks.
@@ -250,7 +262,7 @@ module.exports = {
 		 *
 		 * @report   Error
 		 */
-		'radix': 'error',
+		radix: 'error',
 
 		/**
 		 * Allow padded block comments.
@@ -262,6 +274,6 @@ module.exports = {
 		 *
 		 * @report Off
 		 */
-		'padded-blocks': 'off'
-	}
+		'padded-blocks': 'off',
+	},
 };
