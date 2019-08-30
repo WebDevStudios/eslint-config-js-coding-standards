@@ -51,7 +51,7 @@ module.exports = {
 		/**
 		 * Module dependency documentation.
 		 *
-		 * Turn the error into a warn.
+		 * Turn the error off.
 		 *
 		 * This error gets thrown on ALL JS files that use import.
 		 *
@@ -59,7 +59,7 @@ module.exports = {
 		 *
 		 * @since  1.0.0
 		 */
-		'@wordpress/dependency-group': 1,
+		'@wordpress/dependency-group': 0,
 
 		/**
 		 * Require @author.
