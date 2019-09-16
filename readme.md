@@ -11,7 +11,13 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 ## Installation
 
+NPM
+
 `npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-alpha1 --save-dev`
+
+Yarn
+
+`yarn add git@github.com:WebDevStudios/js-coding-standards.git --dev`
 
 ### Projects
 
