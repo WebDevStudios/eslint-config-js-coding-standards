@@ -13,7 +13,7 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 NPM
 
-`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-alpha1 --save-dev`
+`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-beta1 --save-dev`
 
 Yarn
 
@@ -29,9 +29,14 @@ module.exports = {
 }
 ```
 
-## NEXT
+__________
+
+# Changelog
+
+## 1.0.0-beta1
 
 - Removed error for `@wordpress/dependency-group` rule
+- Working beta state the replicates JS from [WDS-Coding-Standards](https://github.com/WebDevStudios/WDS-Coding-Standards) with `@wordpress/eslint-plugin`
 
 ## 1.0.0-alpha1
 
