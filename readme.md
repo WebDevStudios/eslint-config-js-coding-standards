@@ -17,6 +17,10 @@ __________
 
 # Changelog
 
+## NEXT
+
+- Moved from https://github.com/WebDevStudios/js-coding-standards to https://github.com/WebDevStudios/eslint-config-js-coding-standards so that the package name we're forced to use won't be confusing
+
 ## 1.0.0-beta1
 
 - Removed error for `@wordpress/dependency-group` rule
