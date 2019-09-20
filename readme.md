@@ -1,6 +1,6 @@
 # WebDevStudios JavaScript Coding Standards (ESLint)
 
-WebDevStudios in-house JavaScript linting and coding standards for your favorite editor using `eslint`.
+WebDevStudios eslint configuration for [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards).
 
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
 
