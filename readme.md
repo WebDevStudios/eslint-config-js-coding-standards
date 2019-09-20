@@ -11,19 +11,7 @@ WebDevStudios in-house JavaScript linting and coding standards for your favorite
 
 ## Installation
 
-First install via `npm`:
-
-`npm install git://git@github.com:WebDevStudios/eslint-config-js-coding-standards.git#1.0.0-beta1 --save-dev`
-
-_Note, yarn installations may not work this way._
-
-In your `package.json`, use:
-
-```js
-"eslintConfig": {
-    "extends": "@webdevstudios/js-coding-standards"
-}
-```
+Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards)
 
 __________
 
