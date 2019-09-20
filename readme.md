@@ -17,15 +17,7 @@ First install via `npm`:
 
 _Note, yarn installations may not work this way._
 
-Then, to use JS coding standards in your project, in your `.eslintrc.js` file include:
-
-```js
-module.exports = {
-    "extends": "@webdevstudios/js-coding-standards"
-}
-```
-
-Or, in your `package.json` you can also do:
+In your `package.json`, use:
 
 ```js
 "eslintConfig": {
