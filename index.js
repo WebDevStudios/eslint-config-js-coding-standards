@@ -73,7 +73,7 @@ module.exports = {
 		 *
 		 * @report    Warning
 		 */
-		'@webdevstudios/custom/@author': 1,
+		'@webdevstudios/js-coding-standards/@author': 1,
 
 		/**
 		 * Require @since.
@@ -86,7 +86,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'@webdevstudios/custom/@since': 2,
+		'@webdevstudios/js-coding-standards/@since': 2,
 
 		/**
 		 * Function assignments require DocBlocks to help understand data coming in.
@@ -100,7 +100,7 @@ module.exports = {
 		 *
 		 * @report    Error
 		 */
-		'@webdevstudios/custom/functionExpressionRequireDocblock': 2,
+		'@webdevstudios/js-coding-standards/functionExpressionRequireDocblock': 2,
 
 		/**
 		 * Encourages use of dot notation whenever possible.
