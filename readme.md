@@ -21,7 +21,7 @@ In your `package.json`, use:
 
 ```js
 "eslintConfig": {
-    "extends": "@webdevstudios/eslint-config-js-coding-standards"
+    "extends": "@webdevstudios/js-coding-standards"
 }
 ```
 
