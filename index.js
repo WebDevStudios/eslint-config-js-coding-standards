@@ -10,7 +10,7 @@ module.exports = {
 	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
 
 	plugins: [
-		'@webdevstudios/custom',
+		'@webdevstudios/js-coding-standards',
 	],
 
 	env: {
