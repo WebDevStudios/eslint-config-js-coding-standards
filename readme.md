@@ -19,6 +19,7 @@ __________
 
 ## 1.0.0-beta1
 
+- Now requiring public package `@webdevstudios/eslint-plugin-js-coding-standards`
 - Removed error for `@wordpress/dependency-group` rule
 - Working beta state the replicates JS from [WDS-Coding-Standards](https://github.com/WebDevStudios/WDS-Coding-Standards) with `@wordpress/eslint-plugin`
 
