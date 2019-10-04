@@ -12,6 +12,7 @@ __________
 
 ## 1.0.0-beta2
 
+- Ready to publish on npmjs.org
 - Updates to README and `package.json`
 - Require `eslint@~6.1.0` and `@wordpress/eslint-plugin@~2.3.0` for minor updates allowed
 - Moved from https://github.com/WebDevStudios/js-coding-standards to https://github.com/WebDevStudios/eslint-config-js-coding-standards so that the package name we're forced to use won't be confusing
