@@ -1,7 +1,7 @@
 {
   "name": "@webdevstudios/eslint-config-js-coding-standards",
-  "version": "1.0.0-beta1",
-  "description": "WebDevStudios in-house JavaScript linting and coding standards for your favorite editor.",
+  "version": "1.0.0-beta2",
+  "description": "WebDevStudios ESLint config for JavaScript Coding Standards.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,17 @@
   },
   "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
   "dependencies": {
-    "@webdevstudios/eslint-plugin-js-coding-standards": "git+ssh://git@github.com/WebDevStudios/eslint-plugin-js-coding-standards.git",
-    "@wordpress/eslint-plugin": "^2.3.0",
-    "eslint": "^6.1.0"
+    "@webdevstudios/eslint-plugin-js-coding-standards": "~1.0.0-beta2",
+    "@wordpress/eslint-plugin": "~2.3.0",
+    "eslint": "~6.1.0"
   },
   "devDependencies": {},
-  "main": "index.js"
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Aubrey Portwood",
+      "email": "aubrey@webdevstudios.com",
+      "url": "http://webdevstudios.com"
+    }
+  ]
 }
