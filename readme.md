@@ -1,13 +1,8 @@
-# WebDevStudios ESLint Config for JavaScript Coding Standards
-
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
 
-## Leadership
+# WebDevStudios ESLint Config for JavaScript Coding Standards
 
-- [Aubrey Portwood](https://github.com/aubreypwd) - Project Lead
-- [Greg Rickaby](https://github.com/gregrickaby) - Director of Engineering
-
-## Installation
+## How to Install
 
 Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards)
 
@@ -15,12 +10,16 @@ __________
 
 # Changelog
 
-## NEXT
+## 1.0.0-beta2
 
+- Ready to publish on npmjs.org
+- Updates to README and `package.json`
+- Require `eslint@~6.1.0` and `@wordpress/eslint-plugin@~2.3.0` for minor updates allowed
 - Moved from https://github.com/WebDevStudios/js-coding-standards to https://github.com/WebDevStudios/eslint-config-js-coding-standards so that the package name we're forced to use won't be confusing
 
 ## 1.0.0-beta1
 
+- Now requiring public package `@webdevstudios/eslint-plugin-js-coding-standards`
 - Removed error for `@wordpress/dependency-group` rule
 - Working beta state the replicates JS from [WDS-Coding-Standards](https://github.com/WebDevStudios/WDS-Coding-Standards) with `@wordpress/eslint-plugin`
 
