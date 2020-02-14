@@ -10,6 +10,10 @@ __________
 
 # Changelog
 
+## 1.0.0
+
+- Stable release
+
 ## 1.0.0-beta2
 
 - Ready to publish on npmjs.org
