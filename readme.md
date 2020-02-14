@@ -13,7 +13,7 @@ __________
 ## 1.0.0
 
 - Stable release
-- Require `@webdevstudios/eslint-plugin-js-coding-standards@~1.0.0` 
+- Require [`@webdevstudios/eslint-plugin-js-coding-standards@~1.0.0` ](https://github.com/webdevstudios/eslint-plugin-js-coding-standards)
 
 ## 1.0.0-beta2
 
