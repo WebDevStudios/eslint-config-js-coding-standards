@@ -10,6 +10,10 @@ __________
 
 # Changelog
 
+## 1.0.1
+
+- Allow arrow functions <sup>[PR:#12](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/12)</sup>
+
 ## 1.0.0
 
 - Stable release

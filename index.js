@@ -233,7 +233,7 @@ module.exports = {
 		 *
 		 * @report   Error
 		 */
-		'func-style': [ 'error', 'declaration' ],
+		'func-style': [ 'error', 'declaration', { allowArrowFunctions: true } ],
 
 		/**
 		 * Disallow null comparisons without type-checking operators.
