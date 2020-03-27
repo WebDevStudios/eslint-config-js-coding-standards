@@ -162,7 +162,16 @@ module.exports = {
 		 * @report   Error
 		 */
 		'lines-around-comment': [ 'error', {
+			beforeBlockComment: true,
+			afterBlockComment: false,
 			beforeLineComment: true,
+			afterLineComment: false,
+			allowBlockStart: true,
+			allowBlockEnd: true,
+			allowObjectStart: true,
+			allowObjectEnd: true,
+			allowArrayStart: true,
+			allowArrayEnd: true
 		} ],
 
 		/**
