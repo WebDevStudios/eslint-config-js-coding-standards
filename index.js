@@ -134,24 +134,6 @@ module.exports = {
 		'func-call-spacing': 'off',
 
 		/**
-		 * Enforces spacing between keys and values in object literal properties.
-		 *
-		 * @standard WP
-		 * @see      https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/#spacing
-		 *
-		 * @author   Aubrey Portwood
-		 * @since    1.0
-		 *
-		 * @since    7/26/2019 Overrides WP.
-		 *
-		 * @report   Error
-		 */
-		'key-spacing': [ 'error', {
-			beforeColon: false,
-			afterColon: true,
-		} ],
-
-		/**
 		 * Enforces empty lines around comments.
 		 *
 		 * @standard WP
