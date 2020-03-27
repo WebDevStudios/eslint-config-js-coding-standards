@@ -7,7 +7,7 @@ module.exports = {
 	 *
 	 * @since 1.0.0
 	 */
-	extends: [ 'plugin:@wordpress/eslint-plugin/recommended' ],
+	extends: [ 'plugin:@wordpress/eslint-plugin/recommended', 'prettier', 'prettier/react' ],
 
 	plugins: [
 		'@webdevstudios/js-coding-standards',
