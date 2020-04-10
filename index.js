@@ -370,5 +370,17 @@ module.exports = {
 		 * @see https://eslint.org/docs/rules/no-whitespace-before-property
 		 */
 		'no-whitespace-before-property': 'error',
+
+		/**
+		 * Require keyword spacing.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/space-after-keywords
+		 */
+		'keyword-spacing': 'error',
 	},
 };
