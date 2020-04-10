@@ -298,6 +298,8 @@ module.exports = {
 		 *
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 * @since  NEXT
+		 *
+		 * @see https://eslint.org/docs/rules/space-before-function-paren
 		 */
 		'space-before-function-paren': [ 'error', {
 			anonymous: 'never',
