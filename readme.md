@@ -13,6 +13,7 @@ __________
 ## NEXT
 
 - Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces)</sup>
+- Do not allow spaces before function call, e.g. `function ()` is invalid
 - Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
 
 ## 1.0.1

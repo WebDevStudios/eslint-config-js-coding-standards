@@ -287,6 +287,22 @@ module.exports = {
 		 * @see      https://eslint.org/docs/rules/no-multi-spaces
 		 * @report   Error
 		 */
-		'no-multi-space': [ 'error' ],
+		'no-multi-spaces': [ 'error' ],
+
+		/**
+		 * Do not allow a space after a function and (
+		 *
+		 * @standard WDS
+		 *
+		 * E.g. function() is proper function () does not pass go.
+		 *
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 * @since  NEXT
+		 */
+		'space-before-function-paren': [ 'error', {
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always',
+		} ],
 	},
 };
