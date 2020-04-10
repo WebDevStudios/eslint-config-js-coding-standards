@@ -330,5 +330,15 @@ module.exports = {
 		'space-infix-ops': [ 'error', {
 			int32Hint: false,
 		} ],
+
+		/**
+		 * Properly spaced comments
+		 *
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 * @since  NEXT
+		 *
+		 * @see https://eslint.org/docs/rules/spaced-comment
+		 */
+		'spaced-comment': [ 'error', 'always' ],
 	},
 };
