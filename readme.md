@@ -10,6 +10,10 @@ __________
 
 # Changelog
 
+## NEXT
+
+- Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
+
 ## 1.0.1
 
 - Allow arrow functions <sup>[PR:#12](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/12)</sup>
