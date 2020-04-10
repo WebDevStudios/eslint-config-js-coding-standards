@@ -275,5 +275,18 @@ module.exports = {
 		 * @report Off
 		 */
 		'padded-blocks': 'off',
+
+		/**
+		 * Do not allow multiple spaces.
+		 *
+		 * @standard WDS
+		 *
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com
+		 * @since  NEXT
+		 *
+		 * @see      https://eslint.org/docs/rules/no-multi-spaces
+		 * @report   Error
+		 */
+		'no-multi-space': [ 'error' ],
 	},
 };
