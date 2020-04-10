@@ -290,7 +290,7 @@ module.exports = {
 		'no-multi-spaces': [ 'error' ],
 
 		/**
-		 * Do not allow a space after a function and (
+		 * Do not allow a space after a function and (.
 		 *
 		 * @standard WDS
 		 *
@@ -308,7 +308,9 @@ module.exports = {
 		} ],
 
 		/**
-		 * Requrire spaces in parens
+		 * Requrire spaces in parens.
+		 *
+		 * @standard WDS
 		 *
 		 * E.g. myFunc( a, b) is invalid, myFunc( a, b ) is.
 		 *
@@ -322,6 +324,8 @@ module.exports = {
 		/**
 		 * Require math to have spaces.
 		 *
+		 * @standard WDS
+		 *
 		 * @since  NEXT
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
@@ -332,7 +336,9 @@ module.exports = {
 		} ],
 
 		/**
-		 * Properly spaced comments
+		 * Properly spaced comments.
+		 *
+		 * @standard WDS
 		 *
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 * @since  NEXT
@@ -342,7 +348,9 @@ module.exports = {
 		'spaced-comment': [ 'error', 'always' ],
 
 		/**
-		 * Require block spacing
+		 * Require block spacing.
+		 *
+		 * @standard WDS
 		 *
 		 * @since  NEXT
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
@@ -350,5 +358,17 @@ module.exports = {
 		 * @see https://eslint.org/docs/rules/block-spacing
 		 */
 		'block-spacing': [ 'error', 'always' ],
+
+		/**
+		 * Don't allow spaces when accessing properties.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/no-whitespace-before-property
+		 */
+		'no-whitespace-before-property': 'error',
 	},
 };
