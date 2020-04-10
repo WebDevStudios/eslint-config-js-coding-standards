@@ -340,5 +340,15 @@ module.exports = {
 		 * @see https://eslint.org/docs/rules/spaced-comment
 		 */
 		'spaced-comment': [ 'error', 'always' ],
+
+		/**
+		 * Require block spacing
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/block-spacing
+		 */
+		'block-spacing': [ 'error', 'always' ],
 	},
 };
