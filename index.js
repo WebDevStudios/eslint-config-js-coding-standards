@@ -306,5 +306,17 @@ module.exports = {
 			named: 'never',
 			asyncArrow: 'always',
 		} ],
+
+		/**
+		 * Requrire spaces in parens
+		 *
+		 * E.g. myFunc( a, b) is invalid, myFunc( a, b ) is.
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/space-in-parens
+		 */
+		'space-in-parens': [ 'error', 'always' ],
 	},
 };
