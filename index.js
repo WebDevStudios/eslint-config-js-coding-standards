@@ -318,5 +318,17 @@ module.exports = {
 		 * @see  https://eslint.org/docs/rules/space-in-parens
 		 */
 		'space-in-parens': [ 'error', 'always' ],
+
+		/**
+		 * Require math to have spaces.
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/space-infix-ops
+		 */
+		'space-infix-ops': [ 'error', {
+			int32Hint: false,
+		} ],
 	},
 };
