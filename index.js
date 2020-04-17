@@ -58,6 +58,8 @@ module.exports = {
 		 * @see https://github.com/WordPress/gutenberg/issues/16789
 		 *
 		 * @since  1.0.0
+		 *
+		 * @report None
 		 */
 		'@wordpress/dependency-group': 0,
 
@@ -302,6 +304,8 @@ module.exports = {
 		 * @since  NEXT
 		 *
 		 * @see https://eslint.org/docs/rules/space-before-function-paren
+		 *
+		 * @report Error
 		 */
 		'space-before-function-paren': [ 'error', {
 			anonymous: 'never',
@@ -320,6 +324,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see  https://eslint.org/docs/rules/space-in-parens
+		 *
+		 * @report Error
 		 */
 		'space-in-parens': [ 'error', 'always' ],
 
@@ -332,6 +338,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see  https://eslint.org/docs/rules/space-infix-ops
+		 *
+		 * @report Error
 		 */
 		'space-infix-ops': [ 'error', {
 			int32Hint: false,
@@ -346,6 +354,8 @@ module.exports = {
 		 * @since  NEXT
 		 *
 		 * @see https://eslint.org/docs/rules/spaced-comment
+		 *
+		 * @report Error
 		 */
 		'spaced-comment': [ 'error', 'always' ],
 
@@ -358,6 +368,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see https://eslint.org/docs/rules/block-spacing
+		 *
+		 * @report Error
 		 */
 		'block-spacing': [ 'error', 'always' ],
 
@@ -370,6 +382,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see https://eslint.org/docs/rules/no-whitespace-before-property
+		 *
+		 * @report Error
 		 */
 		'no-whitespace-before-property': 'error',
 
@@ -382,6 +396,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see https://eslint.org/docs/rules/space-after-keywords
+		 *
+		 * @report Error
 		 */
 		'keyword-spacing': 'error',
 
@@ -408,6 +424,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see  https://eslint.org/docs/rules/brace-style
+		 *
+		 * @report Error
 		 */
 		'brace-style': [ 'error', '1tbs', {
 			allowSingleLine: true,
@@ -422,6 +440,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see  https://eslint.org/docs/rules/comma-spacing
+		 *
+		 * @report Error
 		 */
 		'comma-spacing': [ 'error', {
 			before: false,
@@ -437,6 +457,8 @@ module.exports = {
 		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
 		 *
 		 * @see  https://eslint.org/docs/rules/array-bracket-spacing
+		 *
+		 * @report Error
 		 */
 		'array-bracket-spacing': [ 'error', 'always' ],
 	},
