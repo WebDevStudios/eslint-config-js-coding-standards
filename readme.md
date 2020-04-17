@@ -12,6 +12,7 @@ __________
 
 ## NEXT
 
+- Require proper brace style, see notes below <sup>[eslint](https://eslint.org/docs/rules/brace-style], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Require spaces e.g. `if()` is invalid, `if ()` is valid <sup>[eslint](https://eslint.org/docs/rules/space-after-keywords], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Require math to have spaces, e.g. 2+2 is invalid, but 2 + 2 is valid <sup>[eslint](https://eslint.org/docs/rules/space-infix-ops], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Disallow spaces between function names and call, e.g. `myFunc ()` is invalid <sup>[eslint](https://eslint.org/docs/rules/space-before-function-paren), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
@@ -19,6 +20,37 @@ __________
 - Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Do not allow spaces before function call, e.g. `function ()` is invalid <sup>[eslint](https://eslint.org/docs/rules/func-call-spacing), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
+
+### Note on brace style
+
+#### Correct:
+
+```js
+function bar() {
+    return true;
+}
+```
+
+#### Incorrect:
+
+```js
+function foo()
+{
+    return true;
+}
+
+function baz()
+{
+    return false;
+}
+
+if ( foo() ) {
+    bar();
+}
+else {
+    baz();
+}
+```
 
 ## 1.0.1
 

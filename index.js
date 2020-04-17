@@ -382,5 +382,33 @@ module.exports = {
 		 * @see https://eslint.org/docs/rules/space-after-keywords
 		 */
 		'keyword-spacing': 'error',
+
+		/**
+		 * Enforce "1tbs" brace style.
+		 *
+		 * E.g. do not allow:
+		 *
+		 *     function foo()
+		 *     {
+		 *         return true;
+		 *     }
+		 *
+		 *     if (foo) {
+		 *         bar();
+		 *     }
+		 *     else {
+		 *         baz();
+		 *     }
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/brace-style
+		 */
+		'brace-style': [ 'error', '1tbs', {
+			allowSingleLine: true,
+		} ],
 	},
 };
