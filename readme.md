@@ -12,13 +12,14 @@ __________
 
 ## NEXT
 
-- Require proper brace style, see notes below <sup>[eslint](https://eslint.org/docs/rules/brace-style], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Require spaces e.g. `if()` is invalid, `if ()` is valid <sup>[eslint](https://eslint.org/docs/rules/space-after-keywords], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Require math to have spaces, e.g. 2+2 is invalid, but 2 + 2 is valid <sup>[eslint](https://eslint.org/docs/rules/space-infix-ops], [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Disallow spaces between function names and call, e.g. `myFunc ()` is invalid <sup>[eslint](https://eslint.org/docs/rules/space-before-function-paren), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Require spavcs in parens <sup>[eslint](https://eslint.org/docs/rules/space-in-parens), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
-- Do not allow spaces before function call, e.g. `function ()` is invalid <sup>[eslint](https://eslint.org/docs/rules/func-call-spacing), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Require consistent comma spacing, even in Arrays <sup>[comma-spacing](https://eslint.org/docs/rules/comma-spacing], [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Require proper brace style, see notes below <sup>[brace-style](https://eslint.org/docs/rules/brace-style), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Require spaces e.g. `if()` is invalid, `if ()` is valid <sup>[rules/space-after-keywords](https://eslint.org/docs/rules/space-after-keywords), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Require math to have spaces, e.g. 2+2 is invalid, but 2 + 2 is valid <sup>[space-infix-ops](https://eslint.org/docs/rules/space-infix-ops), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Disallow spaces between function names and call, e.g. `myFunc ()` is invalid <sup>[space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Require spavcs in parens <sup>[space-in-parens](https://eslint.org/docs/rules/space-in-parens), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Don't allow multi spaces <sup>[no-multi-spaces](https://eslint.org/docs/rules/no-multi-spaces), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
+- Do not allow spaces before function call, e.g. `function ()` is invalid <sup>[func-call-spacing](https://eslint.org/docs/rules/func-call-spacing), [PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/20)</sup>
 - Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
 
 ### Note on brace style

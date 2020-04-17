@@ -427,5 +427,17 @@ module.exports = {
 			before: false,
 			after: true,
 		} ],
+
+		/**
+		 * Require even spacing in arrays.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/array-bracket-spacing
+		 */
+		'array-bracket-spacing': [ 'error', 'always' ],
 	},
 };
