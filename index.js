@@ -449,7 +449,7 @@ module.exports = {
 		} ],
 
 		/**
-		 * Require even spacing in arrays.
+		 * Require even spacing in arrays and objects.
 		 *
 		 * @standard WDS
 		 *
@@ -461,5 +461,6 @@ module.exports = {
 		 * @report Error
 		 */
 		'array-bracket-spacing': [ 'error', 'always' ],
+		'object-curly-spacing': [ 'error', 'always' ],
 	},
 };
