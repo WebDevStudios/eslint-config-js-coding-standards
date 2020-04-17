@@ -232,6 +232,8 @@ module.exports = {
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Error
+		 *
+		 * @see https://eslint.org/docs/rules/func-style
 		 */
 		'func-style': [ 'error', 'declaration', { allowArrowFunctions: true } ],
 
@@ -409,6 +411,21 @@ module.exports = {
 		 */
 		'brace-style': [ 'error', '1tbs', {
 			allowSingleLine: true,
+		} ],
+
+		/**
+		 * Proper comma spacing.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/comma-spacing
+		 */
+		'comma-spacing': [ 'error', {
+			before: false,
+			after: true,
 		} ],
 	},
 };
