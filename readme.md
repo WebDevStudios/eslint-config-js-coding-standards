@@ -10,7 +10,7 @@ __________
 
 # Changelog
 
-## NEXT
+## 1.0.2
 
 - Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces)</sup>
 - Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
