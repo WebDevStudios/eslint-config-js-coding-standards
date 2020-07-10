@@ -14,6 +14,7 @@ __________
 
 - Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces)</sup>
 - Bump acorn from 7.1.0 to 7.1.1 <sup>[PR](https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/14)</sup>
+- Bump `eslint` to `>=6.8.0` so parent packages can require greater versions if need-be, e.g. js-coding-standards <sup>[js-coding-standards/issues/8](https://github.com/WebDevStudios/js-coding-standards/issues/8)</sup>
 
 ## 1.0.1
 
