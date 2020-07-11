@@ -58,6 +58,8 @@ module.exports = {
 		 * @see https://github.com/WordPress/gutenberg/issues/16789
 		 *
 		 * @since  1.0.0
+		 *
+		 * @report None
 		 */
 		'@wordpress/dependency-group': 0,
 
@@ -232,6 +234,8 @@ module.exports = {
 		 * @author Aubrey Portwood
 		 *
 		 * @report   Error
+		 *
+		 * @see https://eslint.org/docs/rules/func-style
 		 */
 		'func-style': [ 'error', 'declaration', { allowArrowFunctions: true } ],
 
@@ -287,6 +291,176 @@ module.exports = {
 		 * @see      https://eslint.org/docs/rules/no-multi-spaces
 		 * @report   Error
 		 */
-		'no-multi-space': [ 'error' ],
+		'no-multi-spaces': [ 'error' ],
+
+		/**
+		 * Do not allow a space after a function and (.
+		 *
+		 * @standard WDS
+		 *
+		 * E.g. function() is proper function () does not pass go.
+		 *
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 * @since  NEXT
+		 *
+		 * @see https://eslint.org/docs/rules/space-before-function-paren
+		 *
+		 * @report Error
+		 */
+		'space-before-function-paren': [ 'error', {
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always',
+		} ],
+
+		/**
+		 * Requrire spaces in parens.
+		 *
+		 * @standard WDS
+		 *
+		 * E.g. myFunc( a, b) is invalid, myFunc( a, b ) is.
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/space-in-parens
+		 *
+		 * @report Error
+		 */
+		'space-in-parens': [ 'error', 'always' ],
+
+		/**
+		 * Require math to have spaces.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/space-infix-ops
+		 *
+		 * @report Error
+		 */
+		'space-infix-ops': [ 'error', {
+			int32Hint: false,
+		} ],
+
+		/**
+		 * Properly spaced comments.
+		 *
+		 * @standard WDS
+		 *
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 * @since  NEXT
+		 *
+		 * @see https://eslint.org/docs/rules/spaced-comment
+		 *
+		 * @report Error
+		 */
+		'spaced-comment': [ 'error', 'always' ],
+
+		/**
+		 * Require block spacing.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/block-spacing
+		 *
+		 * @report Error
+		 */
+		'block-spacing': [ 'error', 'always' ],
+
+		/**
+		 * Don't allow spaces when accessing properties.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/no-whitespace-before-property
+		 *
+		 * @report Error
+		 */
+		'no-whitespace-before-property': 'error',
+
+		/**
+		 * Require keyword spacing.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see https://eslint.org/docs/rules/space-after-keywords
+		 *
+		 * @report Error
+		 */
+		'keyword-spacing': 'error',
+
+		/**
+		 * Enforce "1tbs" brace style.
+		 *
+		 * E.g. do not allow:
+		 *
+		 *     function foo()
+		 *     {
+		 *         return true;
+		 *     }
+		 *
+		 *     if (foo) {
+		 *         bar();
+		 *     }
+		 *     else {
+		 *         baz();
+		 *     }
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/brace-style
+		 *
+		 * @report Error
+		 */
+		'brace-style': [ 'error', '1tbs', {
+			allowSingleLine: true,
+		} ],
+
+		/**
+		 * Proper comma spacing.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/comma-spacing
+		 *
+		 * @report Error
+		 */
+		'comma-spacing': [ 'error', {
+			before: false,
+			after: true,
+		} ],
+
+		/**
+		 * Require even spacing in arrays and objects.
+		 *
+		 * @standard WDS
+		 *
+		 * @since  NEXT
+		 * @author Aubrey Portwood <aubrey@webdevstudios.com>
+		 *
+		 * @see  https://eslint.org/docs/rules/array-bracket-spacing
+		 *
+		 * @report Error
+		 */
+		'array-bracket-spacing': [ 'error', 'always' ],
+		'object-curly-spacing': [ 'error', 'always' ],
 	},
 };
