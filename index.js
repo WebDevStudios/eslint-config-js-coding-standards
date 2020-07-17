@@ -287,6 +287,6 @@ module.exports = {
 		 * @see      https://eslint.org/docs/rules/no-multi-spaces
 		 * @report   Error
 		 */
-		'no-multi-space': [ 'error' ],
+		'no-multi-spaces': [ 'error' ],
 	},
 };

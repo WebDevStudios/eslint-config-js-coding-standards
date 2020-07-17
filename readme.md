@@ -10,6 +10,10 @@ __________
 
 # Changelog
 
+## Unrealeased
+
+- Correct the `no-multi-space` which is incorrect to `no-multi-spaces` which is the correct rule
+
 ## 1.0.2
 
 - Don't allow multi spaces <sup>[eslint](https://eslint.org/docs/rules/no-multi-spaces)</sup>
