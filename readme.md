@@ -10,7 +10,7 @@ __________
 
 # Changelog
 
-## Unrealeased
+## 1.0.3
 
 - Correct the `no-multi-space` which is incorrect to `no-multi-spaces` which is the correct rule
 
