@@ -29,5 +29,8 @@
       "email": "code@aubreypwd.com",
       "url": "http://webdevstudios.com"
     }
-  ]
+  ],
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
 }
